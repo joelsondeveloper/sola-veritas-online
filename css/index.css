@@ -74,13 +74,14 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 .title-cta{
     color: white;
     font-family: Merriweather;
-    font-size: 4rem;
+    font-size: 4.4rem;
+    text-shadow: 3px 3px 5px black;
 }
 
 .pesquisar input[type="text"]{
@@ -88,8 +89,15 @@ body{
     padding: 10px;
     border-radius: 5px;
     border: none;
-    font-size: 1.6rem;
-    transition: .2s;
+    font-size: 1.4rem;
+    font-family: Merriweather;
+    letter-spacing: 1px;
+}
+
+.pesquisar input[type="text"]::placeholder{
+    color: #ccc;
+    font-size: 1.4rem;
+    font-style: italic;
 }
 
 .pesquisar button[type="submit"]{
